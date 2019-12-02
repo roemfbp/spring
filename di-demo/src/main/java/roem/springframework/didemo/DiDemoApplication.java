@@ -6,8 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import roem.springframework.didemo.controllers.MyController;
 
-@SpringBootApplication
-@ComponentScan(basePackages = {"roem.services", "roem.springframework.didemo"})
+@SpringBootApplication//
 public class DiDemoApplication {
 
 	public static void main(String[] args) {

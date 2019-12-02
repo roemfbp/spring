@@ -1,4 +1,4 @@
-package roem.services;
+package roem.springframework.didemo.services;
 
 public interface GreetingService {
 

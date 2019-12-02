@@ -1,7 +1,7 @@
 package roem.springframework.didemo.controllers;
 
 import org.springframework.stereotype.Controller;
-import roem.services.GreetingService;
+import roem.springframework.didemo.services.GreetingService;
 
 /**
  * Created by roem on  31/10/19
