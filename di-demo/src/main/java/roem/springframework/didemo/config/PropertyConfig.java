@@ -15,15 +15,10 @@ import roem.springframework.didemo.examplebeans.FakeJmsBroker;
  * Created by roem on  04/12/19
  */
 @Configuration
-//@PropertySource({"classpath:datasource.properties","classpath:jms.properties"})
-@PropertySources({
-        @PropertySource("classpath:datasource.properties"),
-        @PropertySource("classpath:jms.properties")
-})
+
 public class PropertyConfig {
 
-    @Autowired
-    Environment env;
+
 
     @Value("${roem.username}")
     String user;
@@ -45,7 +40,7 @@ public class PropertyConfig {
     public FakeDataSource fakeDataSource(){
 
         FakeDataSource fakeDataSource = new FakeDataSource();
-        fakeDataSource.setUser(env.getProperty("USERNAME"));
+        fakeDataSource.setUser(user);
         fakeDataSource.setPassword(password);
         fakeDataSource.setUrl(url);
         return fakeDataSource;
@@ -61,9 +56,5 @@ public class PropertyConfig {
         return fakeJmsBroker;
     }
 
-    @Bean
-    public static PropertySourcesPlaceholderConfigurer properties(){
-        PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer = new PropertySourcesPlaceholderConfigurer();
-        return propertySourcesPlaceholderConfigurer;
-    }
+    
 }
