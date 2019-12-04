@@ -1,0 +1,10 @@
+roem/example/spring5webapp/repositories/BookRepository.class
+roem/example/spring5webapp/Spring5webappApplication.class
+roem/example/spring5webapp/model/Publisher.class
+roem/example/spring5webapp/bootstrap/DevBootstrap.class
+roem/example/spring5webapp/model/Book.class
+roem/example/spring5webapp/controllers/AuthorController.class
+roem/example/spring5webapp/model/Author.class
+roem/example/spring5webapp/repositories/PublisherRepository.class
+roem/example/spring5webapp/controllers/BookController.class
+roem/example/spring5webapp/repositories/AuthorRepository.class
