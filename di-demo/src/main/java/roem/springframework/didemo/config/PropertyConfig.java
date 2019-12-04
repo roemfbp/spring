@@ -56,5 +56,5 @@ public class PropertyConfig {
         return fakeJmsBroker;
     }
 
-    
+
 }
