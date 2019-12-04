@@ -3,3 +3,11 @@ roem:
     username: JMS Username
     password: somepass
     url: SomeUrl
+
+---
+spring:
+    profiles: de
+roem:
+  jms:
+    username: JMS Gunther
+
