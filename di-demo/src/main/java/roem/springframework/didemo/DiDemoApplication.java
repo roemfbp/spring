@@ -6,6 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import roem.springframework.didemo.controllers.MyController;
 import roem.springframework.didemo.examplebeans.FakeDataSource;
+import roem.springframework.didemo.examplebeans.FakeJmsBroker;
 
 @SpringBootApplication
 public class DiDemoApplication {
@@ -16,6 +17,9 @@ public class DiDemoApplication {
 		System.out.println(controller.hello());
 		FakeDataSource fakeDataSource = (FakeDataSource) ctx.getBean(FakeDataSource.class);
 		System.out.println(fakeDataSource.getUser());
+
+		FakeJmsBroker fakeJmsBroker = (FakeJmsBroker) ctx.getBean(FakeJmsBroker.class);
+		System.out.println(fakeJmsBroker.getUsername());
  	}
 
 }
