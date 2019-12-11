@@ -1,0 +1,9 @@
+/home/roem/spring-course/spring/spring5webapp/src/main/java/roem/example/spring5webapp/model/Author.java
+/home/roem/spring-course/spring/spring5webapp/src/main/java/roem/example/spring5webapp/repositories/BookRepository.java
+/home/roem/spring-course/spring/spring5webapp/src/main/java/roem/example/spring5webapp/repositories/PublisherRepository.java
+/home/roem/spring-course/spring/spring5webapp/src/main/java/roem/example/spring5webapp/model/Book.java
+/home/roem/spring-course/spring/spring5webapp/src/main/java/roem/example/spring5webapp/repositories/AuthorRepository.java
+/home/roem/spring-course/spring/spring5webapp/src/main/java/roem/example/spring5webapp/controllers/BookController.java
+/home/roem/spring-course/spring/spring5webapp/src/main/java/roem/example/spring5webapp/bootstrap/DevBootstrap.java
+/home/roem/spring-course/spring/spring5webapp/src/main/java/roem/example/spring5webapp/model/Publisher.java
+/home/roem/spring-course/spring/spring5webapp/src/main/java/roem/example/spring5webapp/Spring5webappApplication.java
